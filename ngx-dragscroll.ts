@@ -5,10 +5,9 @@ import {Subject} from 'rxjs/Subject';
 import {switchMap, takeUntil} from 'rxjs/operators';
 
 @Directive({
-  selector: '[appDragScroll]'
+  selector: '[dragScroll]'
 })
 export class DragScrollDirective implements OnInit, OnDestroy {
-  @Input() dragScrollOnMobile = true;
   mousedown$: Observable<MouseEvent>;
   mousemove$: Observable<MouseEvent>;
   mouseup$: Observable<MouseEvent>;
