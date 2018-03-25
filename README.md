@@ -1,5 +1,5 @@
 # ngx-dragscroll
-Angular directive to scroll on drag / mousedown
+Angular directive to scroll on drag / mousedown. High performance since it does not trigger Angular's change detection at all.
 
 Requires at least Angular 5+ (RxJS 5.5+)
 
